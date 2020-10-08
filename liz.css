@@ -1,0 +1,20 @@
+body {
+	background-image: url(https://klike.net/uploads/posts/2019-06/1561182942_2.jpg);
+	color: white;
+	
+	}
+table {
+	color: black;
+	width: 65%;
+			border-spacing:10px;
+			border-collapse: collapse;
+			border:2px solid;
+			text-align: left;
+			margin: auto;
+}
+h1  {
+ 	color: white;
+ }
+  a {
+
+  }
