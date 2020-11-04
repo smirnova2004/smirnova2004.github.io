@@ -13,30 +13,40 @@
 		border-color: white;
 		color: white;
 		border: 2px solid white;
+		padding: 5px;
+		color: black;
 		
 	}
 td {
 	width: 20px;
 	height: 10px;
 	border: 2px solid white;
+	padding: 5px;
 }
 th {
 	width: 20px;
 	height: 10px;
 	border: 2px solid white;
+	padding: 5px;
 }
+tr:nth-child(odd){ background: pink; }
+tr:nth-child(even) {
+	background: lightblue;
+}
+tr:hover{ background: lightgreen; }
+td:hover{ background: grey; }
 </style>
 
 <body>
 	<table>
 		<caption><h2>Топ 10 найпопулярніших мов програмування 2020 року за індексом TIOBE</h2></caption>
 		<tr>
-			<th><center>№</center></th>
+			<th>№</th>
 			<th>Назва</th>
 			<th>Рейтинг</th>
 		</tr>
 		<tr>
-			<td><center>1</center></td>
+			<td>1</td>
 			<td>C</td>
 			<td>16,95%    </td>
 		</tr>
