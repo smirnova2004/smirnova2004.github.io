@@ -1,7 +1,11 @@
 body {
-	background-image: url(https://klike.net/uploads/posts/2019-06/1561182942_2.jpg);
+	background-image: url(https://media.istockphoto.com/photos/dark-blue-sapphire-diamond-crystal-navy-gradient-background-abstract-picture-id1156876154?b=1&k=6&m=1156876154&s=170667a&w=0&h=aHWbZr7zuDx87H8LchmKTy3KbdFPN6ByI3QIoamCM40=);
 	color: white;
-	
+	margin: 0px;
+	height: 100%;
+	background-size: cover;
+	width: 100%;
+	font-family: 'Cormorant Infant', serif;
 	}
 table {
 	color: black;
@@ -11,10 +15,15 @@ table {
 			border:2px solid;
 			text-align: left;
 			margin: auto;
+			border-radius: 25px;
 }
 h1  {
  	color: white;
  }
   a {
+
+  }
+  li {
+  	list-style: none;
 
   }
